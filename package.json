@@ -1,0 +1,23 @@
+{
+  "name": "crud-express",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo API Rest",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debpc/crud-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debpc/crud-express/issues"
+  },
+  "homepage": "https://github.com/debpc/crud-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
