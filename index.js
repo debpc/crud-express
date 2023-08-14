@@ -31,18 +31,18 @@ app.post("/api", (req, res) => {
 });
 
 // Read
-app.get("/pai/:id", procuraId, (req, res) => {
+app.get("/api/:id", procuraId, (req, res) => {
   res.json(db[req.index]);
 });
 
 // Update
-app.put("/pai/:id", procuraId, (req, res) => {
+app.put("/api/:id", procuraId, (req, res) => {
   db[req.index] = { ...db[req.index], ...req.body };
   res.json(db[req.index]);
 });
 
 // Delete
-app.delete("/pai/:id", procuraId, (req, res) => {
+app.delete("/api/:id", procuraId, (req, res) => {
   db.splice(req.index, 1);
   res.sendStatus(204);
 });
